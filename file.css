@@ -1,0 +1,107 @@
+.voici{
+    font-size: 50px;
+    text-shadow: 5px 5px 3px rgba(26, 163, 218, 0.2);
+ 
+}
+
+h1{
+    color: orangered;
+    
+
+}
+.titre{
+    font-size: 50px;
+    text-shadow: 10px 10px 0px rgb(orangered);
+ 
+    padding: 100px;
+    
+}
+.Hel{
+    text-align: center;
+    color: #ffffff;
+}
+
+
+p{
+    color :black;
+}
+
+
+
+#logo{
+    
+}
+.part{
+    color:rgb(228, 28, 28);
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: right;
+}
+body{
+    font-family:Roboto,sans-serif;
+    margin: 0;
+}
+.glob{
+    text-align: center;
+}
+.bannière{
+    padding: 100px;
+    
+    background-image: url('img.jfif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top right;
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+    
+
+}
+   
+   /* .element {
+        width: 200px;
+        font-size: 25px;
+        background-color: skyblue;   
+          
+   
+            border-radius: 10px  ;
+            box-shadow : 6px 6px 0px rgb(black);
+            padding: 100px;
+           
+    }*/
+    .element {
+        width: 200px;
+             font-size: 25px;
+             background-color: skyblue;
+             border-radius: 10px;
+            /*box-shadow: 6px 6px 25px rgba(0, 0, 0,5);*/
+             box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+             padding: 100px;
+            
+     }
+     .mon-element:hover{
+        background-color: #BEAEE2;
+    color: white;
+     }
+     
+h1:hover{
+  color:  #CDF0EA;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+.mon-element{
+     display: block; 
+        width: 100%; 
+        background-color: #ccc; 
+        
+}
+.texte { display: inline; 
+    font-weight: bold;
+     color: blue; } 
+     .cacher { display: none; } 
+    
